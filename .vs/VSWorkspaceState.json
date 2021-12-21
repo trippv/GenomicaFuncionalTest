@@ -1,6 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     ""
+=======
+    "",
+    "\\config",
+    "\\config\\_default",
+    "\\content",
+    "\\content\\courses",
+    "\\content\\courses\\example"
+>>>>>>> TrippBranch
   ],
   "PreviewInSolutionExplorer": false
 }

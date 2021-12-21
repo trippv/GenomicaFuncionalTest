@@ -263,7 +263,11 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
+<<<<<<< HEAD
 &lt;div id=&#34;chart-461357982&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+=======
+&lt;div id=&#34;chart-189624753&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+>>>>>>> TrippBranch
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -273,7 +277,11 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
+<<<<<<< HEAD
         Plotly.plot(&#39;chart-461357982&#39;, chart.data, chart.layout, {responsive: true});
+=======
+        Plotly.plot(&#39;chart-189624753&#39;, chart.data, chart.layout, {responsive: true});
+>>>>>>> TrippBranch
       });
     }, 500 );
   })();
